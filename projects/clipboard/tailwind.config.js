@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./*.html'],
+  content: ['./*.html','./*.css'],
   theme: {
     screens: {
       sm: '480px',
@@ -11,7 +11,7 @@ module.exports = {
     extend: {
       colors: {
         strongCyan: 'hsl(171, 66%, 44%)',
-        ligthBlue: 'hsl(233, 100%, 69%)',
+        lightBlue: 'hsl(233, 100%, 69%)',
         darkGrayishBlue: 'hsl(210, 10%, 33%)',
         grayishBlue: 'hsl(201, 11%, 66%)',
       },
