@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+    .btn {
+        @apply px-10 py-2 my-0 font-bold tracking-widest uppercase border-2 border-black font-alata hover:bg-black hover:text-white;
+    }
+}
+
 #hero {
     /* esto se compila en la carpeta css que esta un nivel mas arriba, por eso el ../  */
     background-image: url('../images/desktop/image-hero.jpg');
