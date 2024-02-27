@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#hero {
+    /* esto se compila en la carpeta css que esta un nivel mas arriba, por eso el ../  */
+    background-image: url('../images/desktop/image-hero.jpg');
+}
