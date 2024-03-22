@@ -1,15 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400,600,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400,600,700&display=swap" rel="stylesheet">
     <title>Bookmark</title>
 </head>
-<body>
-    <h1 class="text-3xl">Bookmark</h1>
+
+<body class="overflow-x-hidden">
+    <nav class="container relative mx-auto p-6">
+
+        <!-- Flex Container For Nav Items -->
+        <div class="flex items-center justify-between space-x-20 my-6">
+            <!-- Logo -->
+            <div class="z-30">
+                <img id="logo" src="images/logo-bookmark.svg" alt="">
+            </div>
+            <!-- Menu Items -->
+            <div class="items-center hidden space-x-10 uppercase text-grayishBlue md:flex">
+                <a href="#features" class="tracking-widest hover:text-softRed">Features</a>
+                <a href="#download" class="tracking-widest hover:text-softRed">Download</a>
+                <a href="#faq" class="tracking-widest hover:text-softRed">FAQ</a>
+                <a href="#" class="px-8 py-2 text-white bg-softRed border-2 border-softRed rounded-lg shadow-md hover:text-softRed hover:bg-white">Login</a>
+            </div>
+        </div>
+    </nav>
 </body>
+
 </html>
